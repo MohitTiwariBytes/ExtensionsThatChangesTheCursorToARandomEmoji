@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Random Emoji Cursor",
+  "version": "1.0",
+  "description": "Changes the cursor to a random emoji",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click to change cursor"
+  }
+}
